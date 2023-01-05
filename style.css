@@ -1,0 +1,364 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*---------------------INÍCIO HEADER---------------------*/
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #0b986a;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+body{
+	background-color: #d2f4e7;
+	margin-top: 80px;
+}
+.wpp-btn-fixo a{
+	width:50px;
+	height: 50px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 40px;
+	padding: 5px;
+	text-align: center;
+	background-color: green;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+	z-index: 9
+}
+.wpp-btn-fixo a:hover{
+color: #FFF;
+text-shadow:0px 0px 5px #FFF;
+background-color: #006400;
+}
+
+a{
+	text-decoration: none;
+}
+.logo{
+
+}
+.logo-img{
+	width: 320px;
+	height: 60px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}.menu{
+	display: flex;
+	list-style:none;
+	line-height: 80px;
+	margin: 0 auto;
+	margin-left: 80px;
+	font-size: 20px;
+}
+.menu a{
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+}
+.menu li{
+	display: flex;
+	margin-left: 60px;
+}
+.menu li a:hover{
+color:98eb7f;
+text-shadow:0px 0px 5px #70b74d;
+}
+/*---------------------FIM HEADER---------------------*/
+
+/*---------------------INICIO TELA1---------------------*/
+
+.tela1{
+	display: table;
+	background-color: rgba(50,205,50,0.4);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 55% 95%, 50% 100%, 45% 95%, 0% 95%);
+}
+.texto_inicio{
+	width: 45%;
+	float: left;
+	font-family: 'Bebas Neue', cursive;
+}
+.imagem_inicio img{
+	width: 52%;
+	margin-bottom: 30px;
+	float: right;
+	z-index: 3;
+}
+.txt1{
+	font-size: 100px;
+	margin-left: 80px;
+	margin-top: -25px;
+}
+.txt2{
+	font-size: 40px;
+	margin-left: 80px;
+	margin-top: 120px;
+}
+.dsc{
+	margin-left: 80px;
+	font-size: 40px;
+	color: #25624a;
+	font-family: arial;
+	font-weight: bold;
+}
+.btn_saiba-mais{
+	/*text-align: center;*/
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.btn_saiba-mais a{
+	font-size: 25px;
+	background-color: #a66bbf;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+/*---------------------FIM TELA1---------------------*/
+
+/*---------------------INICIO ONTEUDO---------------------*/
+.conteudo{
+	margin-left: 80px;
+	margin-right: 80px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+.card{
+	width: 250px;
+	height: 412px;
+	border-radius: 5px;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.card-titulo{
+	text-align: center;
+	line-height:60px;
+	height: 60px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	background-color: #93cc85;
+	border-radius: 5px 5px 0px 0px;
+}
+.card img{
+	width: 250px;
+	height: 161px;
+}
+.preco{
+	display: flex;
+	justify-content: center;
+}
+.preco1{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #ccabdc;
+	background-image: url(img/entiqueta.png);
+	background-size: 100px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card div{
+	position: relative;
+}
+
+.valor{
+	font-family: arial;
+	margin-top: -15px;
+	color: #fff;
+	font-size: 25px;
+	float: left;
+}
+
+.card-dsc{
+	font-family: arial;
+	text-align: center;
+	margin-top: 5px;
+	margin: 5px;
+	width: 245px;
+	height: 90px;
+}
+.card-btn{
+	background-color: #a66bbf;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	padding: 5px 50px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+/*---------------------FIM CONTEUDO---------------------*/
+/*---------------------INICIO RODA PÉ---------------------*/
+.rodape1 footer{
+	margin: 0 auto;
+}
+.rodape{
+	width: 100%;
+	height: 320px;
+	background-color: #0b986a;
+	display: block;
+	text-align: center;
+}
+
+.logo-img2{
+	width: 320px;
+	height: 60px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.footer_social2 a{
+	margin-top: 30px;
+	padding: 15px;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #fff;
+	font-size: 20px;
+	margin: 10px;
+	color: green;
+}
+.footer_social2 a:hover{
+color:98eb7f;
+text-shadow:0px 0px 5px #fff;
+color: #fff;
+background-color: green;
+}
+footer p{
+	color: #fff;
+	font-family: arial;
+}
+
+
+/*---------------------FIM RODA PÉ---------------------*/
+
+/*---------------------MOBILE INICIO--------------------------*/
+@media only screen and (max-width:767px) {
+	.tela1{
+		display: table;
+		clip-path: none;
+		height: 100%;
+	}
+    /* de 0px até 767px */
+    .txt1{
+    	margin-left: 20px;
+    	margin-right: 20px;
+    }
+    .txt2{
+    	margin-left: 20px;
+    	margin-right: 20px;
+    }
+    .dsc{
+    	margin-left: 20px;
+    	margin-right: 20px;
+    	text-align: left;
+    }
+    .btn_saiba-mais{
+    	margin-left: 20px;
+
+    }
+    .imagem_inicio{
+    	display: none;
+    }
+    .texto_inicio{
+    	width: 100%;
+    }
+    .logo-img{
+    	margin-right: 20px;
+    	width: 200px;
+    	right: 0;
+    }
+    .menu{
+    	display: none;
+    }
+    /*----------MENU MOBILE-----------*/
+    #icone {
+	cursor: pointer;
+	padding: 15px;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 10px;
+}
+
+	#check{
+		display: none;
+		background-color: #f00;
+	}
+
+	.barra{
+		background-color: #333;
+		height: 100%;
+		width: 300px;
+		position: fixed;
+		left: -300px;
+		transition: all .2s linear;
+		z-index: 99;
+	}
+
+	.barra .link{
+		list-style: none;
+		background-color: #494950;
+	}
+
+	nav{
+		width: 100%;
+		position: fixed;
+		top: 60px;
+		z-index: 99;
+	}
+	nav a{
+		text-decoration: none;
+	}
+
+	.link{
+		color: #f4f4f9;
+		font-family: 'Arial';
+		font-size: 12pt;
+		padding: 20px;
+		border-bottom: 2px solid #222;
+		transition:  all .2s linear;
+		opacity: 0;
+		margin-top: 200px;
+	}
+	.link:hover{
+		background-color: #050542;
+	}
+
+	#check:checked ~ .barra nav a .link{
+			opacity: 1;
+			margin-top: 0;
+			transition-delay: .2s;
+	}
+	#check:checked ~ .barra{
+			transform: translateX(300px);
+
+	}
+}
+/*---------------------MOBILE FIM--------------------------*/
+
+
+/*-----------------RESPONSIVO PC-----------------------------*/
+@media only screen and (min-width:767px){
+	#check{
+		display: none;
+	}
+	#icone{
+		display: none;
+	}
+	.barra{
+		display: none;
+	}
+}
